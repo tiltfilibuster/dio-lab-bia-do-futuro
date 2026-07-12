@@ -1,7 +1,5 @@
 # 🤖 Agente Financeiro Inteligente com IA Generativa
 
-# sssss https://github.com/falvojr/dio-lab-bia-do-futuro
-
 ## Contexto
 
 Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
