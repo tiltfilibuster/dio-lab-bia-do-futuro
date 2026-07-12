@@ -8,20 +8,44 @@
     "indicado_para": "Reserva de emergência e iniciantes"
   },
   {
-    "nome": "CDB Liquidez Diária",
+    "nome": "Tesouro IPCA+",
     "categoria": "renda_fixa",
     "risco": "baixo",
-    "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "rentabilidade": "IPCA + taxa prefixada",
+    "aporte_minimo": 30.00,
+    "indicado_para": "Proteção contra inflação e longo prazo"
   },
   {
-    "nome": "LCI/LCA",
+    "nome": "CDB Prefixado",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "12% ao ano",
+    "aporte_minimo": 500.00,
+    "indicado_para": "Quem deseja previsibilidade de rendimento"
+  },
+  {
+    "nome": "LCI",
     "categoria": "renda_fixa",
     "risco": "baixo",
     "rentabilidade": "95% do CDI",
     "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "indicado_para": "Investidores que buscam isenção de IR"
+  },
+  {
+    "nome": "LCA",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "96% do CDI",
+    "aporte_minimo": 1000.00,
+    "indicado_para": "Quem deseja investir no agronegócio com isenção de IR"
+  },
+  {
+    "nome": "Debênture Incentivada",
+    "categoria": "renda_fixa",
+    "risco": "medio",
+    "rentabilidade": "IPCA + taxa fixa",
+    "aporte_minimo": 1000.00,
+    "indicado_para": "Investidores de longo prazo que aceitam risco moderado"
   },
   {
     "nome": "Fundo Multimercado",
@@ -38,5 +62,69 @@
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
     "indicado_para": "Perfil arrojado com foco no longo prazo"
+  },
+  {
+    "nome": "ETF BOVA11",
+    "categoria": "etf",
+    "risco": "alto",
+    "rentabilidade": "Acompanha o Ibovespa",
+    "aporte_minimo": 120.00,
+    "indicado_para": "Quem deseja investir nas maiores empresas brasileiras"
+  },
+  {
+    "nome": "ETF IVVB11",
+    "categoria": "etf",
+    "risco": "alto",
+    "rentabilidade": "Acompanha o S&P 500",
+    "aporte_minimo": 350.00,
+    "indicado_para": "Diversificação internacional"
+  },
+  {
+    "nome": "Ações Blue Chips",
+    "categoria": "acoes",
+    "risco": "alto",
+    "rentabilidade": "Variável",
+    "aporte_minimo": 50.00,
+    "indicado_para": "Investidores de longo prazo"
+  },
+  {
+    "nome": "BDRs",
+    "categoria": "acoes",
+    "risco": "alto",
+    "rentabilidade": "Variável",
+    "aporte_minimo": 80.00,
+    "indicado_para": "Quem deseja investir em empresas estrangeiras pela B3"
+  },
+  {
+    "nome": "Previdência Privada PGBL",
+    "categoria": "previdencia",
+    "risco": "baixo",
+    "rentabilidade": "Conforme fundo escolhido",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Planejamento para aposentadoria com benefício fiscal"
+  },
+  {
+    "nome": "Previdência Privada VGBL",
+    "categoria": "previdencia",
+    "risco": "baixo",
+    "rentabilidade": "Conforme fundo escolhido",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Planejamento para aposentadoria"
+  },
+  {
+    "nome": "Conta Remunerada",
+    "categoria": "conta_digital",
+    "risco": "baixo",
+    "rentabilidade": "100% do CDI",
+    "aporte_minimo": 1.00,
+    "indicado_para": "Quem deseja rendimento automático do saldo"
+  },
+  {
+    "nome": "Poupança",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "Conforme regra da poupança",
+    "aporte_minimo": 1.00,
+    "indicado_para": "Investidores conservadores"
   }
 ]
