@@ -29,22 +29,27 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
+
+### Teste 5: Recomendação de produto com pergunta fora do escopo
+- **Pergunta:** "qual tipo de investimento mais arriscado, mas que entra no meu perfil de investimento você me recomendaria para uma poupança que não vou usar por bastante tempo? Também vou sair mais tarde qual é a previsão do tempo para essa tarde?"
+- **Resposta esperada:** Agente faz a recomendação e informa que só trata finanças
+- - **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
 
@@ -53,19 +58,17 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- O agente respondeu corretamente às consultas sobre gastos utilizando os dados das transações do cliente.
+- As recomendações de investimentos foram compatíveis com o perfil e o objetivo financeiro informado pelo usuário.
+- O agente explicou os motivos das recomendações, reforçando seu papel educativo em vez de apenas sugerir produtos.
+- Perguntas fora do escopo (como previsão do tempo ou funcionamento de lojas) foram recusadas corretamente, informando que o agente é especializado em educação financeira.
+- Quando um produto não existia na base de conhecimento (Tesouro IPCA+), o agente admitiu a limitação em vez de inventar informações, reduzindo o risco de alucinações.
+- O tom de comunicação permaneceu consistente durante toda a conversa, sendo acessível, consultivo e paciente.
 
 **O que pode melhorar:**
-- [Liste aqui]
-
----
-
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
+- Expandir a base de conhecimento com mais produtos financeiros permitindo recomendações mais completas.
+- Tornar as recomendações mais personalizadas, considerando não apenas o perfil do investidor, mas também patrimônio, renda, capacidade de aporte e objetivos de curto, médio e longo prazo.
+- Permitir consultas a serviços externos para informações que não fazem parte da base de conhecimento, calendário de funcionamento de estabelecimentos ou cotações em tempo real, quando apropriado.
+- Melhorar a diferenciação entre investimentos para reserva de emergência e investimentos de longo prazo, permitindo sugerir carteiras mais diversificadas para usuários moderados e arrojados.
+- Incluir informações adicionais sobre cada produto financeiro, como liquidez, tributação, prazo recomendado, garantias e principais riscos, enriquecendo as explicações fornecidas ao usuário.
+- Evoluir o sistema para realizar comparações entre diferentes investimentos disponíveis na base, auxiliando o usuário na tomada de decisão.
