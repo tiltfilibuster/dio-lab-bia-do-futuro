@@ -1,5 +1,3 @@
-Ollama
-gemma4
 streamlit
 pandas
 requests
