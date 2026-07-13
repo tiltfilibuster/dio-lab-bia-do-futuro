@@ -124,12 +124,12 @@ source venv/bin/activate
 
 3. **Instale as dependências:**
 ```bash
-pip install -r requirements.txt
+pip install -r src/requirements.txt
 
 ```
 
 
 4. **Execute a aplicação:**
 ```bash
-streamlit run app.py
+streamlit run src/app.py
 
