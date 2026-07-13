@@ -8,12 +8,12 @@
     "indicado_para": "Reserva de emergência e iniciantes"
   },
   {
-    "nome": "Tesouro IPCA+",
+    "nome": "Tesouro Prefixado",
     "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "IPCA + taxa prefixada",
+    "risco": "medio",
+    "rentabilidade": "Taxa fixa anual",
     "aporte_minimo": 30.00,
-    "indicado_para": "Proteção contra inflação e longo prazo"
+    "indicado_para": "Quem acredita na queda dos juros"
   },
   {
     "nome": "CDB Prefixado",
@@ -22,14 +22,6 @@
     "rentabilidade": "12% ao ano",
     "aporte_minimo": 500.00,
     "indicado_para": "Quem deseja previsibilidade de rendimento"
-  },
-  {
-    "nome": "LCI",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "95% do CDI",
-    "aporte_minimo": 1000.00,
-    "indicado_para": "Investidores que buscam isenção de IR"
   },
   {
     "nome": "LCA",
@@ -46,6 +38,14 @@
     "rentabilidade": "IPCA + taxa fixa",
     "aporte_minimo": 1000.00,
     "indicado_para": "Investidores de longo prazo que aceitam risco moderado"
+  },
+  {
+    "nome": "Fundo DI",
+    "categoria": "fundo",
+    "risco": "baixo",
+    "rentabilidade": "Próxima ao CDI",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Reserva de curto prazo"
   },
   {
     "nome": "Fundo Multimercado",
@@ -72,12 +72,20 @@
     "indicado_para": "Quem deseja investir nas maiores empresas brasileiras"
   },
   {
-    "nome": "ETF IVVB11",
-    "categoria": "etf",
-    "risco": "alto",
-    "rentabilidade": "Acompanha o S&P 500",
-    "aporte_minimo": 350.00,
-    "indicado_para": "Diversificação internacional"
+    "nome": "FII de Tijolo",
+    "categoria": "fii",
+    "risco": "medio",
+    "rentabilidade": "Dividendos mensais",
+    "aporte_minimo": 120.00,
+    "indicado_para": "Renda passiva com imóveis físicos"
+  },
+  {
+    "nome": "FII de Papel",
+    "categoria": "fii",
+    "risco": "medio",
+    "rentabilidade": "Dividendos atrelados ao CDI/IPCA",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Quem busca renda mensal indexada"
   },
   {
     "nome": "Ações Blue Chips",
@@ -96,28 +104,12 @@
     "indicado_para": "Quem deseja investir em empresas estrangeiras pela B3"
   },
   {
-    "nome": "Previdência Privada PGBL",
-    "categoria": "previdencia",
-    "risco": "baixo",
-    "rentabilidade": "Conforme fundo escolhido",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Planejamento para aposentadoria com benefício fiscal"
-  },
-  {
     "nome": "Previdência Privada VGBL",
     "categoria": "previdencia",
     "risco": "baixo",
     "rentabilidade": "Conforme fundo escolhido",
     "aporte_minimo": 100.00,
     "indicado_para": "Planejamento para aposentadoria"
-  },
-  {
-    "nome": "Conta Remunerada",
-    "categoria": "conta_digital",
-    "risco": "baixo",
-    "rentabilidade": "100% do CDI",
-    "aporte_minimo": 1.00,
-    "indicado_para": "Quem deseja rendimento automático do saldo"
   },
   {
     "nome": "Poupança",
